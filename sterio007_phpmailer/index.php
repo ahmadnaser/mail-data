@@ -1,4 +1,3 @@
-
 <?php 
 
 //you need to enable open_ssl in php settings
@@ -14,7 +13,7 @@ if(isset($_POST['email'])){
 	$mail->Host = "smtp.gmail.com";
 	$mail->Port = 465;
 	$mail->Username = "picnicrus.ahmadhammad@gmail.com";
-	$mail->Password = "sterio12345";
+	$mail->Password = "";
 	
 	  
 	$mail->From = "picnicrus.ahmadhammad@gmail.com";//"info@ahmadnaser.com";
